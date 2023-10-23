@@ -2,7 +2,8 @@
 <html>
     <head>
         <title> My Homepage </title>
-        <link href="style2.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bg.css" rel="stylesheet">
 
         <!-- viewport -->
             <meta name="viewport" content="width=device-width , initial-scale=1.0 , user-scalable=1">
@@ -19,7 +20,7 @@
         <header>
 
             <div class="myhp">
-                <img src="b.png" width="200px"> <!--ใน css น่าจะต้องกำหนดเป็น max-width-->
+                <img src="image/b.png" width="200px"> <!--ใน css น่าจะต้องกำหนดเป็น max-width-->
             </div>
 
         </header>
@@ -31,10 +32,10 @@
             <div class="col-3 col-s-3 menu">
               <ul>
                 <a class="link" href="#im"><li class="three">Homepage</li></a>
-                <a class="link1" href="#"><li class="two">More about me</li></a>
-                <a class="link" href="#"><li class="three">Contact</li></a>
-                <a class="link1" href="#"><li class="two">Advisor</li></a>
-                <a class="link" href="#"><li class="three">Activities</li></a>
+                <a class="link1" href="#vid"><li class="two">More about me</li></a>
+                <a class="link" href="#con"><li class="three">Contact</li></a>
+                <a class="link1" href="html/myAdvisor.html"><li class="two">Advisor</li></a>
+                <a class="link" href="html/myActivities.html"><li class="three">Activities</li></a>
               </ul>
             </div>
           
@@ -43,7 +44,7 @@
                 <div id="im">  
                     <figure>
                  
-                        <img src="mypic.jpg" width="650px">
+                        <img src="image/mypic.jpg" width="650px">
                 
                      <figcaption> Photos by me, design by me, edit by me.</figcaption>
             
@@ -56,14 +57,14 @@
           
             <div class="col-3 col-s-12">
                 
-                <div class="aside">
+                
                     <div class="quote">
                         <br>
                         <blockquote> " If you have a chance, you <del> should</del> always have to try it. " </blockquote>
                         <br>
                     </div>
 
-                </div>
+                
             </div>
 
         </div>
@@ -108,10 +109,10 @@
 
             <div class="col-9 col-s-12">
 
-                <div class="vid">
+                <div id="vid">
                     <figure>
 
-                        <video src="myvideo.mp4" height="450" controls> </video>
+                        <video src="VDO/myvideo.mp4" height="450" controls> </video>
 
                         <figcaption> thanks for watching</figcaption>
 
@@ -129,28 +130,33 @@
 
         </div>
           
-        <div class="footer">
+        <footer>
+           
+            <div class="col-6 col-s-6 ">
 
-            <div class="tact">
-
-                contact me 
+                <h2>contact me</h2>
 
                 <p class="eiei"> please click => </p>
 
             </div>
             
             <br>
+
+            <div class="col-6 col-s-6 ">
                
-            <ul class="con">
+            <ul id="con">
                            
-                <li> <a class= "conlink" href= "https://instagram.com/naxmon.bjy?utm_source=qr&igshid=ZDc4ODBmNjlmNQ=="> naxmon.bjy </a> </li>
-                <li> <a class= "conlink" href= "https://www.facebook.com/thawanhathai.thamthong?mibextid=ZbWKwL"> ธวัลหทัย เทียมทอง </a> </li>
-                <li> <a class="conlink" href="mailto:thawanhathai.thi@dome.tu.ac.th"> thawanhathai.thi@dome.tu.ac.th </a> </li>
-                <li> <a class="conlink" href= "tel:0618248839"> 0618248839 </a> </li>
+                <li> <a class="conlink" href="https://instagram.com/naxmon.bjy?utm_source=qr&igshid=ZDc4ODBmNjlmNQ==">naxmon.bjy</a> </li>
+                <li> <a class="conlink" href="https://www.facebook.com/thawanhathai.thamthong?mibextid=ZbWKwL">ธวัลหทัย เทียมทอง</a> </li>
+                <li> <a class="conlink" href="mailto:thawanhathai.thi@dome.tu.ac.th">thawanhathai.thi@dome.tu.ac.th</a> </li>
+                <li> <a class="conlink" href="tel:0618248839">0618248839</a> </li>
                 
             </ul> 
 
-        </div>
+            </div>
+            
+
+        </footer>
 
     </body>
 

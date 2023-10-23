@@ -1,0 +1,19 @@
+html {
+    position: relative;
+    scroll-behavior: smooth;
+  }
+  
+  html::before {
+    content: "";
+    background: url(https://www.biospace.com/getasset/66928356-60dc-464e-bf8f-6f6a0305dd16/);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+  }
+  
